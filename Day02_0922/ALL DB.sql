@@ -1,0 +1,11 @@
+SHOW DATABASES;
+USE exdb;
+SHOW TABLES;
+
+CREATE TABLE Categories(
+	CategoryID INT,	
+	CategoryName VARCHAR(50),	
+	DESCRIPTION VARCHAR(100) 	
+);
+
+SELECT * FROM Categories;
